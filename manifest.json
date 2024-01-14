@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "TST Obsidian",
+  "version": "0.1.1",
+  "description": "Utilities and interactions between Obsidian and Tree Style Tabs",
+  "permissions": ["menus", "tabs", "storage", "contextMenus", "clipboardWrite"],
+  "background": {
+    "scripts": ["background_script.ts"],
+    "persistent": false
+  },
+  "options_ui": {
+    "page": "options/index.html"
+  }
+}

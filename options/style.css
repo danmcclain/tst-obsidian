@@ -1,0 +1,12 @@
+form {
+  padding: 5px;
+}
+
+label {
+  width: 115px;
+  display: inline-block;
+}
+
+form div {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <form id="settings">
+      <div>
+        <label for="vault">Vault (Name or Id)</label>
+        <input type="text" id="vault" />
+      </div>
+      <div>
+        <label for="note">Note</label>
+        <input type="text" id="note" />
+      </div>
+      <button type="submit">Save</button>
+      <button
+        id="resetClose"
+        title="If Obsidian fails to open, this will show the opened tab so that you can allow the extension to open Obsidian"
+      >
+        Reset auto tab closing
+      </button>
+    </form>
+    <script src="script.ts"></script>
+  </body>
+</html>
